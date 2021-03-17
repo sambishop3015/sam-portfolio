@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head id="home">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+
+    <!--Bootstrap-->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="canonical"
+      href="https://getbootstrap.com/docs/4.5/examples/sticky-footer/"
+    />
+
+    <!--Style Sheet-->
+    <link href="./styles/style.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <div class="video-container">
+      <header class="stickyHeader">
+        <!-- Navbar -->
+        <nav class="navbar navbar-dark red lighten-1 mb-4">
+          <!-- Navbar brand -->
+          <a class="navbar-brand" id="brand" href="index.html"
+            >SAM <span class="bishop">BISHOP</span></a
+          >
+
+          <!-- Collapse button -->
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarSupportedContent15"
+            aria-controls="navbarSupportedContent15"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <!-- Collapsible content -->
+          <div class="collapse navbar-collapse" id="navbarSupportedContent15">
+            <!-- Links -->
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  href="#home"
+                  data-toggle="collapse"
+                  data-target=".navbar-collapse.show"
+                  >HOME</a
+                >
+              </li>
+
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  href="#about"
+                  data-toggle="collapse"
+                  data-target=".navbar-collapse.show"
+                  >ABOUT ME</a
+                >
+              </li>
+
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  href="#portfolio"
+                  data-toggle="collapse"
+                  data-target=".navbar-collapse.show"
+                  >PORTFOLIO</a
+                >
+              </li>
+
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  href="#contact"
+                  data-toggle="collapse"
+                  data-target=".navbar-collapse.show"
+                  >CONTACT</a
+                >
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </header>
+    
+      <video autoplay muted loop class="video-parallax">
+        <source src="video/Pexels Videos 2516160.mp4" type="video/mp4" />
+      </video>
+
+      <div class="ptext" id="welcomeTxt">
+        <span class="whiteFont" id="videoTxt">
+          <h1>Welcome!</h1>
+          <br />
+          <h2>
+            Please have a look around and
+            <a href="./contact.html">contact me</a> if you'd like more
+            information.
+          </h2>
+        </span>
+      </div>
+
+      <!--Sticky Footer-->
+      <footer class="footer mt-auto py-3">
+        <!--Container-->
+        <div class="container">
+          <!--Row One-->
+          <div class="row">
+            <!--Column One-->
+            <div class="col-sm-4">
+              <p class="whiteFont">Built By: Sam Bishop</p>
+            </div>
+
+            <!--Column Two-->
+            <div class="col-sm-4">
+              <a href="https://www.linkedin.com/in/samuel-bishop-12550b123/"
+                ><img
+                  id="linkedin"
+                  class="linkedin"
+                  src="images/LI-Logo.png"
+                  alt="Linkedin Profile"
+              /></a>
+            </div>
+
+            <!--Column Three-->
+            <div class="col-sm-4">
+              <a href="https://github.com/sambishop3015"
+                ><img
+                  class="github"
+                  src="images/GitHub_Logo_White.png"
+                  alt="Linkedin Profile"
+              /></a>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <section class="vpHeight" id="about">
+      <div class="pimg1">
+        <div class="ptext">
+          <span class="img-span">
+              <!-- <a href="...???...">>Hello World<</a>  -->
+              <a>>Hello World<</a>
+            </span>
+        </div>
+      </div>
+      <section class="section section-dark sectionOne">
+        <h2>About Me</h2>
+        <p>
+          Hello! My name is Sam Bishop and I am an aspiring full stack web
+          application developer, currently living in West Michigan. I’m pursuing
+          a full stack certificate with Michigan State University and am
+          enjoying the fast pace course that I’m enrolled in. <br /><br />
+          In my free time, I am enjoying designing and building microcontrollers
+          for fun projects like automated chicken coop doors and environment
+          controllers. I’m excited about gaining the knowledge necessary to
+          propel me into the web developing workforce.
+        </p>
+      </section>
+    </section>
+
+    <!-- <div class="pimg1">
+        <div class="ptext">
+            <span class="img-span"> Hello World! </span>
+        </div>
+    </div> -->
+
+    <section class="vpHeight" id="portfolio">
+      <div class="pimg2">
+        <div class="ptext">
+          <span class="img-span">
+            <!-- <a href="...entire portfolio...">>Portfolio<</a> -->
+            <a>>Portfolio<</a>
+          </span>
+        </div>
+      </div>
+      <section class="section section-light">
+        <div class="col-sm-12">
+          <div class="row" id="portfolioRow">
+            <div class="card" style="width: 18rem">
+              <a href="https://note-taker-3015.herokuapp.com/notes"
+                ><img
+                  src="./images/noteTaker.PNG"
+                  class="card-img-top"
+                  alt="..."
+              /></a>
+              <a href="https://github.com/sambishop3015/11-Note-Taker"
+                >GitHub Repository</a
+              >
+            </div>
+
+            <div class="card" style="width: 18rem">
+              <a
+                href="https://sambishop3015.github.io/05-Third-Party-APIs-Work-Day-Scheduler/"
+                ><img
+                  src="./images/scheduler.png"
+                  class="card-img-top"
+                  alt="..."
+              /></a>
+              <a
+                href="https://github.com/sambishop3015/05-Third-Party-APIs-Work-Day-Scheduler"
+                >GitHub Repository</a
+              >
+            </div>
+
+            <div class="card" style="width: 18rem">
+              <a
+                href="https://sambishop3015.github.io/06-Server-Side-APIs-Weather-Dashboard/"
+                ><img
+                  src="./images/weatherApp.png"
+                  class="card-img-top"
+                  alt="..."
+              /></a>
+              <a
+                href="https://github.com/sambishop3015/06-Server-Side-APIs-Weather-Dashboard"
+                >GitHub Repository</a
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+    </section>
+
+    <!-- <div class="pimg2">
+        <div class="ptext">
+            <span class="img-span"> Portfolio </span>
+        </div>
+    </div> -->
+
+    <section class="vpHeight" id="contact">
+      <div class="pimg3">
+        <div class="ptext">
+          <span class="img-span"><a href="./contact.html">>Contact<</a> </span>
+        </div>
+      </div>
+      <section class="section section-dark">
+        <h2>Resume</h2>
+        <p>
+          My initial experience as a developer came while trying to tackle a
+          simple automation project for my home. I was programming micro
+          controllers before I really knew what programming was. It took me by
+          surprise that I could learn, process and teach others how to do the
+          same. I quickly realized that I wanted to code more, but I wanted to
+          develop web applications. I started with learning HTML, CSS, and
+          JavaScript fundamentals after work online. Since then, I’ve pursued a
+          full stack web developer program at Michigan State University which
+          I’m currently attending. We’ve completed multiple group projects and
+          I’ve taken a leadership role in many of them.
+          <a href="./images/Resume.pdf" download>
+            <!-- <img src="./images/samNaomi.jpg" alt="W3Schools"> -->
+            <span id="resumeBtn">HERE!</span></a
+          >
+        </p>
+        <br />
+        <div class="container">
+          <!--Row One-->
+          <div class="row">
+            <!--Column One-->
+            <div class="col-sm-4">
+              <p class="whiteFont">Built By: Sam Bishop</p>
+            </div>
+
+            <!--Column Two-->
+            <div class="col-sm-4">
+              <a href="https://www.linkedin.com/in/samuel-bishop-12550b123/"
+                ><img
+                  id="linkedin"
+                  class="linkedin"
+                  src="images/LI-Logo.png"
+                  alt="Linkedin Profile"
+              /></a>
+            </div>
+            
+            <!--Column Three-->
+            <div class="col-sm-4">
+              <a href="https://github.com/sambishop3015"
+                ><img
+                  class="github"
+                  src="images/GitHub_Logo_White.png"
+                  alt="Linkedin Profile"
+              /></a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </section>
+
+    <!--Script Tags-->
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.js"
+      integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+      integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./script.js"></script>
+  </body>
+</html>

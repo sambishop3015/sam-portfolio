@@ -1,0 +1,260 @@
+.nav-link {
+  text-align: right;
+}
+
+body,
+html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+
+video {
+  top: 50%;
+  left: 50%;
+  z-index: -100;
+  transform: translateX(-50%) translateY(-50%);
+  filter: brightness(50%);
+}
+
+.video-container {
+  height: 100%;
+}
+
+.video-parallax {
+  -webkit-transition-position: fixed;
+  position: fixed;
+}
+
+.video-container,
+.pimg1,
+.pimg2,
+.pimg3 {
+  position: relative;
+  opacity: 1;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+#welcomeTxt {
+  margin-bottom: 50%;
+}
+
+.pimg1 {
+  background-image: url("../images/samNaomi.jpg");
+  min-height: 70vh;
+}
+
+.pimg2 {
+  background-image: url("../images/pimg2.jpg");
+  min-height: 70vh;
+}
+
+.pimg3 {
+  background-image: url("../images/pimg1.jpg");
+  min-height: 70vh;
+}
+
+.section {
+  text-align: center;
+  padding: 50px 80px;
+  height: 30vh;
+}
+
+.section-light {
+  background-color: rgb(185, 185, 185);
+  min-height: 300px
+}
+
+.section-dark {
+  background-color: rgb(59, 59, 59);
+}
+
+.card {
+  vertical-align: middle;
+  box-shadow: 10px 10px 5px 0px rgba(117, 99, 99, 0.75);
+}
+
+.ptext {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: black;
+  font-size: 27px;
+  letter-spacing: 8px;
+  text-transform: uppercase;
+  font-weight: bolder;
+}
+
+#contactForm {
+  margin: auto;
+  margin-top: 10%;
+  width: 40%;
+  border: 3px solid gray;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 10px 10px 5px 0px rgba(117, 99, 99, 0.75);
+}
+
+span.img-span {
+  border: 2px solid rgb(211, 210, 210);
+  padding: 15px;
+  background: rgba(255, 255, 255, 0.5);
+}
+
+.navbar {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.footer {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+/*Brand/Name Properties*/
+#brand {
+  color: white;
+  font-weight: bolder;
+}
+
+/* Brand/Name "BISHOP" Properties */
+.bishop {
+  font-weight: bolder;
+  color: #0077ff;
+}
+
+/* H1 Properties */
+h1 {
+  color: white;
+  font-weight: bolder;
+}
+
+/* P Properties */
+p,
+h2 {
+  color: white;
+}
+
+.form-label {
+  font-weight: bold;
+}
+
+/* Footer Properties */
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+}
+
+.whiteFont {
+  color: white;
+  font-weight: bold;
+}
+
+/* Main Content on Home Page */
+.main {
+  margin-top: 5%;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+/* Headshot on Home Page */
+#headShot {
+  max-height: 600px;
+  max-width: 100%;
+  border-radius: 100%;
+}
+
+/* All Containers */
+.container {
+  text-align: center;
+}
+
+/* Linkedin Buttom */
+.linkedin {
+  max-height: 20px;
+}
+
+/* Github Buttom */
+.github {
+  max-height: 25px;
+}
+
+/* Hamburger Drop-down - Active Page Listed Item to Bold */
+.active {
+  font-weight: bolder;
+}
+
+/* Contact Page First Column Height */
+.col-sm-12 {
+  height: 100px;
+}
+
+.card-group {
+  margin-top: 18%;
+}
+
+/* Contact Card */
+.card {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Contact Card Text */
+.card-text {
+  color: black;
+}
+
+.card-title {
+  font-weight: bolder;
+}
+
+/* For Viewports 575px and Smaller */
+@media screen and (max-width: 575px) {
+
+  /* No Margins */
+  .content .main {
+    padding: 0;
+    margin: 0;
+    border: 0;
+  }
+
+  /* Headshot Properties */
+  #headShot {
+    max-height: 500px;
+    max-width: 100%;
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  /* Hamburger Drop-down List */
+  ul {
+    position: static;
+  }
+}
+
+.stickyHeader {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 100;
+}
+
+#resumeBtn {
+  font-weight: bold;
+}
+
+.vpHeight {
+  height: 100vh;
+}
+
+#portfolioRow {
+  align-items: center;
+}
